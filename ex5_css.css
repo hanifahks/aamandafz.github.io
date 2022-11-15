@@ -1,0 +1,218 @@
+h1 {color: black;
+	font-family: Peach Days;
+	font-size: 80px;
+	text-align: center;
+	text-shadow: 20px 30px 50px #cd909c;
+	margin-bottom: 2px; 
+	margin-left: 90px; 
+	margin-top: 10px; 
+	margin-right: 90px;
+}
+h2 {color:  #079ada ;
+	font-family: Warung Kopi Light;
+	font-size: 30px;
+	text-align: center;
+	font-style: italic;
+	text-shadow: 10px 10px 15px #f00182;
+	margin-bottom: 2px; 
+	margin-left: 90px; 
+	margin-top: 10px; 
+	margin-right: 90px;
+
+}
+h3 {
+	color: #f00182;
+	font-family: Warung Kopi Light;
+	font-size: 50px;
+	text-align: center;
+	text-decoration-line: underline;
+	text-decoration-color:  #fed942;
+	text-decoration-style: wavy;
+	text-decoration-thickness: 10%;
+	text-transform: uppercase;
+	font-style: bold;
+	margin-bottom: 2px; 
+	margin-left: 90px; 
+	margin-top: 10px; 
+	margin-right: 90px;
+}
+
+body {
+	background-color: white;
+	background-image: url("images/bullying 2 - Copy (3).JPG");
+	background-repeat: repeat-y; 
+	background-position: center center;
+	background-attachment: scroll;
+	background-size: 1600px;
+
+}
+p {
+	font-family: Stanberry;
+	font-size: 20px;
+	text-align: justify;
+	margin-bottom: 2px; 
+	margin-left: 110px; 
+	margin-top: 10px; 
+	margin-right: 110px;
+}
+.button{
+	font-family: Stanberry;
+	font-size: 20px;
+	text-align: right;
+	margin-bottom: 2px; 
+	margin-left: 110px; 
+	margin-top: 10px; 
+	margin-right: 110px;
+}
+
+}
+ul.a {
+	list-style-type: square;
+	font-size: 25px;
+	font-family: Stanberry;
+	font-style: bold;
+	color: #079ada; 
+	margin-bottom: 2px; 
+	margin-left: 110px; 
+	margin-top: 10px; 
+	margin-right: 110px;
+}
+ul.b {
+	list-style-type: circle;
+	font-family: Stanberry;
+	font-style: bold;
+	color: black; 
+
+}
+ol.f {
+	list-style-type: lower-numbering;
+	font-family: Stanberry;
+	text-align: justify;
+	margin-bottom: 2px; 
+	margin-left: 110px; 
+	margin-top: 10px; 
+	margin-right: 110px;
+	color: black;
+	font-size: 20px;
+
+	}
+ol.c {
+	list-style-type: lower-numbering;
+	text-align: justify;
+	margin-bottom: 2px; 
+	margin-left: 110px; 
+	margin-top: 10px; 
+	margin-right: 110px;
+	font-size: 25px;
+	font-family: Stanberry;
+	font-style: bold;
+	color: #079ada; 
+	}
+
+.penjelasan {
+	font-family: Stanberry;
+	font-size: 20px;
+	text-align: justify;
+	margin-bottom: 2px; 
+	margin-left: 110px; 
+	margin-top: 10px; 
+	margin-right: 110px;
+	color: black;
+}
+.penjelasan2 {
+	font-family: Stanberry;
+	font-size: 20px;
+	text-align: justify;
+	margin-bottom: 2px; 
+	margin-left: 20px; 
+	margin-top: 10px; 
+	margin-right: 90px;
+	color: black;
+	}
+.varian1 {
+	border: 5px double #fed942;
+  background-color: #f00182; 
+  color:white;
+  text-align: center;
+  padding-top: 20px;
+  padding-right: 1px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  margin-bottom: 2px; 
+	margin-left: 20px; 
+	margin-top: 10px; 
+	margin-right: 0px;
+  font-size: 20px;
+  font-family: Joynoted Demo;
+}
+.varian1:hover 
+{
+	background-color: #079ada;
+	font-size: 25px;
+	font-family: Warung Kopi Light ;
+	margin-left: 110px; 
+	margin-top: 10px; 
+	margin-right: 110px;
+} 
+#tabel {
+	font-family: Warung Kopi Light;
+	border-collapse: collapse;
+	width: 40%;
+	font-size: 20px;
+	margin-left: 400px; 
+	margin-top: 10px; 
+	margin-right: 200px;
+	text-align: center;
+}
+ #tabel td, #tabel th {
+ 	border: 5px inset purple;
+ 	padding: 20px;
+ }
+
+#tabel tr:hover {background-color: #fed942;
+font-size: 20px;
+	font-family: Warung Kopi Light ;}
+
+
+#tabel th {
+	font-size: 25px;
+	font-family: Warung Kopi Light ;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	background-color: #7A4069;
+	color: #FCF8E8;
+}
+
+a:link {
+	color: #f00182;
+	font-size: 20px;
+	font-family: Warung Kopi Light ;
+}
+a:visited {
+	color: #079ada;
+}
+a:hover {
+	color: #f00182;
+}
+a:active {
+	color: green;
+}
+#button {
+	font-size:40px;background-color:#f00182; color:white;
+	position: right;
+}
+footer {
+  		padding: 18px; 
+  background-color:#f00182; color:#f3e7d7; text-align: center;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  font-size: 25px;
+  font-family: Warung Kopi Light;
+  font-style: italic bold;
+}
+.varian1>p {
+    color: white;
+}

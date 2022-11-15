@@ -1,0 +1,205 @@
+/*🎡🎡---------------------------------------
+  CSS PERSECTION              
+-----------------------------------------*/
+
+:root {
+  --black-light:#4c4441;
+  --brown-light:#c5874c;
+  --brown-dark:#986d4a;
+  --blue-dark: #212f3a;
+  --blue-medium: #498186;
+  --blue-light:#40969d;
+  --tosca:#6cbeaa;
+  --bata:#bb5433;
+  --red-dark:#7e2c2c;
+  --yellow-dark:#cb8f3f;
+  --pink-dark:#c15549;
+
+  --blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #F195B2;
+  --secondary: #62C3E7;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #FFFFFF;
+  --dark: #333333;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --font-family-serif: "Georgia", serif;
+  --font-family: Verdana;
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap" rel="stylesheet">
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Georgia, serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+  display: block;
+}
+
+
+:root {
+    --white-color:                  #ffffff;
+    --primary-color:                #5bc1ac;
+    --secondary-color:              #5a6f80;
+    --section-bg-color:             #f0f8ff;
+    --site-footer-bg-color:         #44525d;
+    --custom-btn-bg-color:          #597081;
+    --custom-btn-bg-hover-color:    #5bc1ac;
+    --dark-color:                   #000000;
+    --p-color:                      #717275;
+    --border-color:                 #e9eaeb;
+  
+    --body-font-family:             Georgia;
+  
+    --h1-font-size:                 52px;
+    --h2-font-size:                 46px;
+    --h3-font-size:                 32px;
+    --h4-font-size:                 28px;
+    --h5-font-size:                 24px;
+    --h6-font-size:                 22px;
+    --p-font-size:                  16px;
+    --btn-font-size:                18px;
+    --copyright-font-size:          14px;
+  
+    --border-radius-large:          100px;
+    --border-radius-medium:         20px;
+    --border-radius-small:          10px;
+  
+    --font-weight-light:            300;
+    --font-weight-normal:           400;
+    --font-weight-semibold:         600;
+    --font-weight-bold:             700;
+  }
+  
+  body {
+    background-color: var(--white-color);
+    font-family: var(--body-font-family); 
+  }
+
+  
+/*---------------------------------------
+  TYPOGRAPHY               
+-----------------------------------------*/
+
+h2,
+h3,
+h4,h6 {
+  color: var(--dark-color);
+}
+h5 {color: var(--white-color);}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: var(--font-weight-semibold);
+  letter-spacing: -1px;
+}
+
+h1 {
+  font-size: var(--h1-font-size);
+  font-weight: var(--font-weight-bold);
+  letter-spacing: -2px;
+}
+
+h2 {
+  color: var(--blue-dark);
+  font-size: var(--h2-font-size);
+  letter-spacing: -2px;
+}
+
+h3 {
+  font-size: var(--h3-font-size);
+}
+
+h4 {
+  font-size: var(--h4-font-size);
+}
+
+h5 {
+  color: var(--white-color);
+  font-size: var(--h5-font-size);
+}
+
+h6 {
+  font-size: var(--h6-font-size);
+}
+
+p {
+  color: var(--p-color);
+  font-size: var(--p-font-size);
+  font-weight: var(--font-weight-light);
+}
+
+ul li {
+  color: var(--white);
+  font-size: var(--p-font-size);
+  font-weight: var(--font-weight-normal);
+}
+.navbar {
+  color: var(--white);
+  background-color: var(--blue-dark);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  z-index: 9;
+}
+.navbar-brand {
+color: var(--white);
+font-size: var(--h6-font-size);
+font-weight: var(--font-weight-bold);
+}
+.navbar .nav-link.active:hover {
+background: var(--bata);
+  color: var(--white);
+}
+
+a {
+  color: var(--white);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--white);
+}
+.nav-link.active:hover {}
+.navbar-expand-lg .navbar-nav .nav-link {
+
+}
+a.five:link {color:#ff0000;text-decoration:none;}
+a.five:visited {color:#0000ff;text-decoration:none;}
+a.five:hover {text-decoration:underline;}
+a.navbar-brand:hover {font-size:150%;}
+{

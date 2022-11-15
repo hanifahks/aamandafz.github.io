@@ -1,0 +1,93 @@
+
+h1 {color: black;
+	font-family: Peach Days;
+	font-size: 80px;
+	text-align: center;
+	text-shadow: 20px 30px 50px #cd909c
+}
+h2 {color: #148566;
+	font-family:Warung Kopi Light;
+	font-size: 55px;
+	text-align: center;
+	font-style: bold;
+}
+h4
+{
+	color: black;
+	font-family:Warung Kopi Light;
+	font-size:30px;
+	text-align: center;
+	font-style: bold;
+
+}
+body {
+	background-color: #dcdddc;
+
+}
+p {
+	font-family: Stanberry;
+	font-size: 20px;
+	text-align: justify;
+	margin-bottom: 2px; 
+	margin-left: 90px; 
+	margin-top: 10px; 
+	margin-right: 90px;
+}
+.quotes {
+	border:10px double white; 
+  background-color: #cd909c; color: white; text-align: center;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  font-size: 35px;
+  font-family: Joynoted Demo;
+  font-style: italic;
+  margin-bottom: 2px; 
+	margin-left: 90px; 
+	margin-top: 10px; 
+	margin-right: 90px;
+}
+ul.a {
+	list-style-type: square;
+	font-size: 25px;
+	font-family: Stanberry;
+	font-style: bold;
+	color: #be593a; 
+	margin-bottom: 2px; 
+	margin-left: 90px; 
+	margin-top: 10px; 
+	margin-right: 90px;
+}
+.penjelasan {
+	font-family: Stanberry;
+	font-size: 20px;
+	text-align: justify;
+	margin-bottom: 2px; 
+	margin-left: 90px; 
+	margin-top: 10px; 
+	margin-right: 90px;
+}
+.jomo {
+	border:10px hidden; 
+  background-color: #f3e7d7; color: black; text-align: center;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  font-size: 35px;
+  font-family: Joynoted Demo;
+
+}
+footer {
+  		padding: 18px;
+	border:10px hidden; 
+  background-color: #cd909c; color:#f3e7d7; text-align: center;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  font-size: 25px;
+  font-family: Joynoted Demo;
+  font-style: italic bold;
+}
